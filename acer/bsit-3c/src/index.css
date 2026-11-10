@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background: #ffe6f0;
+}
+
+.app-container {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* NAVBAR */
+
+.main-navbar {
+  background: #d88cae;
+
+  padding: 13px 0;
+
+  box-shadow: 0 2px 8px rgba(120, 50, 80, 0.15);
+}
+
+.brand-name {
+  color: white !important;
+
+  font-size: 20px;
+
+  font-weight: 600;
+}
+
+.brand-icon {
+  margin-right: 8px;
+
+  font-size: 23px;
+}
+
+.main-navbar .nav-link {
+  color: white !important;
+
+  font-weight: 500;
+
+  margin-left: 15px;
+
+  transition: 0.3s;
+}
+
+.main-navbar .nav-link:hover {
+  color: #ffe6f0 !important;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-toggler-icon {
+  filter: brightness(0) invert(1);
+}
